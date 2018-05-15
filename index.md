@@ -19,23 +19,23 @@ An Easy text Editor, used to create text, code, data editor.
 
 ### Examples...
 
-- Easy Text will parse your input to get a data grid, for example
+Easy Text will parse your input to get a data grid, for example
 
-- Switch Name and Age column:
-![image](https://easyhelper.github.io/EasyText/assets/1.png)
+1. Switch Name and Age column:
+- ![image](https://easyhelper.github.io/EasyText/assets/1.png)
 
-- Generate SQL: 
-![image](https://easyhelper.github.io/EasyText/assets/sql_1.png)
-![image](https://easyhelper.github.io/EasyText/assets/sql_2.png)
+2. Generate SQL: 
+- ![image](https://easyhelper.github.io/EasyText/assets/sql_1.png)
+- ![image](https://easyhelper.github.io/EasyText/assets/sql_2.png)
 
-- Create C# properties.
-![image](https://easyhelper.github.io/EasyText/assets/CSharp_Property.png)
+3. Create C# properties.
+ - ![image](https://easyhelper.github.io/EasyText/assets/CSharp_Property.png)
 
-- Generate html table.
-![image](https://easyhelper.github.io/EasyText/assets/html_table.png)
+4. Generate html table.
+ - ![image](https://easyhelper.github.io/EasyText/assets/html_table.png)
 
-- Generate email address.
-![image](https://easyhelper.github.io/EasyText/assets/generate_email.png)
+5. Generate email address.
+ - ![image](https://easyhelper.github.io/EasyText/assets/generate_email.png)
 
 
 ### Javascript Code support.
@@ -46,25 +46,25 @@ An Easy text Editor, used to create text, code, data editor.
 ```
 
 - Examples:
-- Execute javascript api.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/1.png)
+1. Execute javascript api.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/1.png)
 
-- Create a function to execute and get result.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/2.png)
-![image](https://easyhelper.github.io/EasyText/assets/advanced/function.png) 
+2. Create a function to execute and get result.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/2.png)
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/function.png) 
 
-- Execute immediate function.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/if_else.png)
+3. Execute immediate function.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/if_else.png)
 
-- Can use $row+**index** to get the row.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/$row.png)
+4. Can use $row+**index** to get the row.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/$row.png)
 
-- Use $otherRows to get other rows except current row.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_1.png)
-![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_2.png)
+5. Use $otherRows to get other rows except current row.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_1.png)
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_2.png)
 
-- Use Where to filter data.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/where.png) 
+6. Use Where to filter data.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/where.png) 
 
 - online api( underscore, underscore.string.js,  javascript).
 1. https://www.w3schools.com/js/default.asp
