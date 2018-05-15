@@ -4,13 +4,11 @@ layout: page
 {% include setup %}
 
 An Easy text Editor, used to create text, code, data editor.
-
 ---
 <div class="row">
  
 </div>
 ---
-
 Features
 --------
 An Easy text Editor, used to create text, code, data editor.
@@ -40,8 +38,15 @@ Easy Text will parse your input to get a data grid, for example
 
 ### Javascript Code support.
 - Current EasyText Support eval javascript codes.
-> - {{ code }}
-> - <% code %>
+
+---
+<div class="row">
+ <pre>
+  {{ code }}
+  <% code %>
+ </pre>
+</div>
+---
 
 - Examples:
 1. Execute javascript api.
