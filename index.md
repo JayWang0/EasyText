@@ -43,7 +43,9 @@ Easy Text will parse your input to get a data grid, for example
 <div class="row">
  <pre>
   {{ code }}
-  <% code %>
+  { {
+  {\{
+  <% code %>
  </pre>
 </div>
 ---
