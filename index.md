@@ -45,7 +45,6 @@ Easy Text will parse your input to get a data grid, for example
   <% code %>
 ---
 
-- Examples:
 1. Execute javascript api.
  - ![image](https://easyhelper.github.io/EasyText/assets/advanced/1.png)
 
@@ -67,9 +66,10 @@ Easy Text will parse your input to get a data grid, for example
  - ![image](https://easyhelper.github.io/EasyText/assets/advanced/where.png) 
 
 - online api( underscore, underscore.string.js,  javascript).
-1. https://www.w3schools.com/js/default.asp
-2. http://underscorejs.org/
-3. http://gabceb.github.io/underscore.string.site/
+
+1. [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
+2. [http://underscorejs.org/](http://underscorejs.org/)
+3. [http://gabceb.github.io/underscore.string.site/](http://gabceb.github.io/underscore.string.site/)
 
 
 ### Advance topic
