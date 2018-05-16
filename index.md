@@ -40,13 +40,9 @@ Easy Text will parse your input to get a data grid, for example
 - Current EasyText Support eval javascript codes.
 
 ---
-<div class="row">
- <pre>
   {{ "{{ code " }}}}
 
   <% code %>
- </pre>
-</div>
 ---
 
 - Examples:
