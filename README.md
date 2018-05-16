@@ -114,11 +114,14 @@ Donation
 ---------
 If you find EasyText is useful to you, feel free to support the project by making a donation!  
 
+### Donate $9.9 or RMB 19.99 will get a single license.:+1::+1:
+### After paid, send a mail to "**qiwang0@qq.com**" with the license key, and you'll get a valid license in 24 hours. :+1::+1:
+
 [paypal](https://paypal.me/easyhelper)!
 [paypal](https://paypal.me/easyhelper)!
 [paypal](https://paypal.me/easyhelper)!
 
-支付宝 | 微信
------------- | -------------
- <img class="img-responsive" alt="Screenshot of License Tool" src="https://easyhelper.github.io/EasyText/assets/zhifubao.png" style="height: 300px"> &nbsp;&nbsp;&nbsp; | <img class="img-responsive" alt="Screenshot of Demo Project" src="https://easyhelper.github.io/EasyText/assets/weixin.png" style="height: 300px">
+支付宝 | 微信 | 微信公众号
+------------ | ------------- | -------------
+ <img class="img-responsive" alt="Screenshot of License Tool" src="https://easyhelper.github.io/EasyText/assets/zhifubao.png" style="height: 300px"> &nbsp;&nbsp;&nbsp; | <img class="img-responsive" alt="Screenshot of Demo Project" src="https://easyhelper.github.io/EasyText/assets/weixin.png" style="height: 300px"> |  **EasyHelper** :smile: :+1:
 
