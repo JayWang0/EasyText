@@ -118,15 +118,7 @@ If you find EasyText is useful to you, feel free to support the project by makin
 [paypal](https://paypal.me/easyhelper)!
 [paypal](https://paypal.me/easyhelper)!
 
----
-<div class="row">
-  <div class="col-md-6">
-    <img class="img-responsive" alt="Screenshot of License Tool" src="https://easyhelper.github.io/EasyText/assets/zhifubao.png" style="height: 300px">
-    <small>支付宝</small>
-  </div>
-  <div class="col-md-6">
-    <img class="img-responsive" alt="Screenshot of Demo Project" src="https://easyhelper.github.io/EasyText/assets/weixin.png" style="height: 300px">
-    <small>微信</small>
-  </div>
-</div>
----
+支付宝 | 微信
+------------ | -------------
+ <img class="img-responsive" alt="Screenshot of License Tool" src="https://easyhelper.github.io/EasyText/assets/zhifubao.png" style="height: 300px"> &nbsp;&nbsp;&nbsp; | <img class="img-responsive" alt="Screenshot of Demo Project" src="https://easyhelper.github.io/EasyText/assets/weixin.png" style="height: 300px">
+
