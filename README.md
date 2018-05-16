@@ -1,61 +1,72 @@
-# EasyText
+
+An Easy text Editor, used to create text, code, data editor.
+---
+<div class="row">
+ 
+</div>
+---
+Features
+--------
 An Easy text Editor, used to create text, code, data editor.
 
 ## Easy Text is a free text tool, save your time & save your life.
 
 ### Examples...
 
-- Easy Text will parse your input to get a data grid, for example
+Easy Text will parse your input to get a data grid, for example
 
-- Switch Name and Age column:
-![image](https://easyhelper.github.io/EasyText/assets/1.png)
+1. Switch Name and Age column:
+- ![image](https://easyhelper.github.io/EasyText/assets/1.png)
 
-- Generate SQL: 
-![image](https://easyhelper.github.io/EasyText/assets/sql_1.png)
-![image](https://easyhelper.github.io/EasyText/assets/sql_2.png)
+2. Generate SQL: 
+- ![image](https://easyhelper.github.io/EasyText/assets/sql_1.png)
+- ![image](https://easyhelper.github.io/EasyText/assets/sql_2.png)
 
-- Create C# properties.
-![image](https://easyhelper.github.io/EasyText/assets/CSharp_Property.png)
+3. Create C# properties.
+ - ![image](https://easyhelper.github.io/EasyText/assets/CSharp_Property.png)
 
-- Generate html table.
-![image](https://easyhelper.github.io/EasyText/assets/html_table.png)
+4. Generate html table.
+ - ![image](https://easyhelper.github.io/EasyText/assets/html_table.png)
 
-- Generate email address.
-![image](https://easyhelper.github.io/EasyText/assets/generate_email.png)
+5. Generate email address.
+ - ![image](https://easyhelper.github.io/EasyText/assets/generate_email.png)
 
 
 ### Javascript Code support.
 - Current EasyText Support eval javascript codes.
-```
-{{ code }}
-<% code %>
-```
+
+---
+  {{ "{{ code " }}}}
+
+  <% code %>
+---
 
 - Examples:
-- Execute javascript api.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/1.png)
+1. Execute javascript api.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/1.png)
 
-- Create a function to execute and get result.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/2.png)
-![image](https://easyhelper.github.io/EasyText/assets/advanced/function.png) 
+2. Create a function to execute and get result.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/2.png)
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/function.png) 
 
-- Execute immediate function.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/if_else.png)
+3. Execute immediate function.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/if_else.png)
 
-- Can use $row+**index** to get the row.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/$row.png)
+4. Can use $row+**index** to get the row.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/$row.png)
 
-- Use $otherRows to get other rows except current row.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_1.png)
-![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_2.png)
+5. Use $otherRows to get other rows except current row.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_1.png)
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/otherRows_2.png)
 
-- Use Where to filter data.
-![image](https://easyhelper.github.io/EasyText/assets/advanced/where.png) 
+6. Use Where to filter data.
+ - ![image](https://easyhelper.github.io/EasyText/assets/advanced/where.png) 
 
 - online api( underscore, underscore.string.js,  javascript).
 1. https://www.w3schools.com/js/default.asp
 2. http://underscorejs.org/
 3. http://gabceb.github.io/underscore.string.site/
+
 
 ### Advance topic
 - excel support
@@ -63,6 +74,7 @@ User can open a excel to parse.
 
 - where filter.
 - align input.
+
 ```
 EmployeeID,LastName,FirstName,Title,TitleOfCourtesy,BirthDate 
 1,Davolio,Nancy,Sales Representative,Ms.,1948-12-08 00:00:00.000
@@ -75,7 +87,9 @@ EmployeeID,LastName,FirstName,Title,TitleOfCourtesy,BirthDate
 8,Callahan,Laura,Inside Sales Coordinator,Ms.,1958-01-09 00:00:00.000
 9,Dodsworth,Anne,Sales Representative,Ms.,1966-01-27 00:00:00.000
 ```
+
 After Click Align button:
+
 ```
 EmployeeID  ,LastName   ,FirstName  ,Title                     ,TitleOfCourtesy  ,BirthDate              
 1           ,Davolio    ,Nancy      ,Sales Representative      ,Ms.              ,1948-12-08 00:00:00.000
@@ -89,16 +103,36 @@ EmployeeID  ,LastName   ,FirstName  ,Title                     ,TitleOfCourtesy 
 9           ,Dodsworth  ,Anne       ,Sales Representative      ,Ms.              ,1966-01-27 00:00:00.000
 ```
 
+Downloads
+---------
+You could obtain the latest source code and releases at [GitHub project page](https://github.com/easyHelper/EasyText).
+It might be helpful to read the [FAQ](https://easyhelper.github.io/EasyText/)!
 
-- code highlight.
-- #NEW#
- 
-### Support
-- jennywang0@qq.com
+---
 
+Contribution
+------------
+[reporting bugs](https://github.com/EasyHelper/EasyText/issues)!
 
-# **Donate**
+---
 
+Donation
+---------
+If you find EasyText is useful to you, feel free to support the project by making a donation!  
 
+[paypal](https://paypal.me/easyhelper)!
+[paypal](https://paypal.me/easyhelper)!
+[paypal](https://paypal.me/easyhelper)!
 
-
+---
+<div class="row">
+  <div class="col-md-6">
+    <img class="img-responsive" alt="Screenshot of License Tool" src="{{ ASSET_PATH }}/zhifubao.png" style="height: 300px">
+    <small>支付宝</small>
+  </div>
+  <div class="col-md-6">
+    <img class="img-responsive" alt="Screenshot of Demo Project" src="{{ ASSET_PATH }}/weixin.png" style="height: 300px">
+    <small>微信</small>
+  </div>
+</div>
+---
