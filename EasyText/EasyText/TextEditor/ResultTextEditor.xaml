@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="EasyText.TextEditor.ResultTextEditor"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="clr-namespace:EasyText"
+			 xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit"
+			 mc:Ignorable="d"
+			 d:DesignHeight="300" d:DesignWidth="600" x:Name="Root">
+	<DockPanel>
+		<Grid DockPanel.Dock="Top" Background="LightGray">
+			<ToolBar>
+				<Label Content="{Binding ElementName=Root, Path=EditorTitle}" FontWeight="Bold" />
+				<Grid>
+					<Button Click="openFileClick">
+						<Image Source="../Images/Open.png" Height="16" />
+					</Button>
+				</Grid>
+				<Grid>
+					<Button Click="saveFileClick">
+						<Image Source="../Images/Save.png" Height="16" />
+					</Button>
+				</Grid>
+				<Separator />
+				<CheckBox IsChecked="{Binding ElementName=textEditor,Path=WordWrap}" ToolTip="WordWrap" Margin="2">
+					<Image Source="../Images/WordWrap.png" Height="16" />
+				</CheckBox>
+
+				<CheckBox ToolTip="Auto Calculate" x:Name="CheckBoxAutoCalculate" IsChecked="True" Content="Auto" Margin="2" />
+				<Grid>
+					<Button ToolTip="Calculate" x:Name="btnCalculate" Content="Calculate" />
+				</Grid>
+
+				<CheckBox ToolTip="Append New Line" x:Name="CheckBoxAppendNewLine" IsChecked="True" Margin="2">
+					<TextBlock TextAlignment="Center">New Line</TextBlock>
+				</CheckBox>
+
+				<CheckBox IsChecked="{Binding ElementName=textEditor,Path=ShowLineNumbers}" ToolTip="Show Line Numbers" Margin="2">
+					<TextBlock Width="16" TextAlignment="Center">#</TextBlock>
+				</CheckBox>
+				<CheckBox IsChecked="{Binding ElementName=textEditor,Path=Options.ShowEndOfLine}" ToolTip="Show End Of Line"
+						  Margin="2">
+					<TextBlock Width="16" TextAlignment="Center">¶</TextBlock>
+				</CheckBox>
+				<ComboBox Name="highlightingComboBox" Margin="2"
+						  SelectedItem="{Binding SyntaxHighlighting, ElementName=textEditor}"
+						  ItemsSource="{Binding Source={x:Static avalonedit:HighlightingManager.Instance}, Path=HighlightingDefinitions}"
+						  SelectionChanged="HighlightingComboBox_SelectionChanged"
+						  ToolTip="Highlight Language" />
+				<Separator />
+			</ToolBar>
+		</Grid>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Grid Grid.Row="0" x:Name="infoPanel" Visibility="Collapsed">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Label Content="" x:Name="infoPanelName" VerticalContentAlignment="Center" VerticalAlignment="Center"
+					   FontWeight="Bold" Grid.Column="0" />
+				<TextBox Grid.Column="1" x:Name="infoPanelValue" Padding="2" Margin="2"
+						 BorderBrush="Gray" BorderThickness="2"
+						 VerticalContentAlignment="Center" VerticalAlignment="Center" />
+			</Grid>
+			<Grid x:Name="contentGrid" Grid.Row="1">
+				<avalonedit:TextEditor Name="textEditor" FontFamily="Consolas" FontSize="10pt" SyntaxHighlighting="HTML"
+									   ShowLineNumbers="True">
+					<avalonedit:TextEditor.Options>
+						<avalonedit:TextEditorOptions ShowEndOfLine="True" ShowSpaces="True"
+													  ShowTabs="True" ShowColumnRuler="True" ShowBoxForControlCharacters="True" />
+					</avalonedit:TextEditor.Options>
+				</avalonedit:TextEditor>
+
+				<DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Hidden"
+						  AutoGenerateColumns="True" SelectionUnit="CellOrRowHeader" GridLinesVisibility="All" />
+
+			</Grid>
+		</Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,40 @@
+﻿<mahapp:MetroWindow x:Class="EasyText.Windows.About"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mahapp="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                    BorderBrush="#CC119EDA"
+                    BorderThickness="2"
+                    WindowStartupLocation="CenterOwner"
+                    Title="Easy Text" Height="187" Width="350">
+	<Grid>
+		<Grid.Resources>
+			<Style TargetType="TextBlock">
+				<Setter Property="HorizontalAlignment" Value="Center" />
+				<Setter Property="Padding" Value="5" />
+			</Style>
+		</Grid.Resources>
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="*" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="Easy text" FontSize="28" Grid.Row="0" />
+		<StackPanel Grid.Row="1">
+			<TextBlock Text="An Easy text Editor, used to create text, code, data editor." Grid.Row="1" />
+			<TextBlock>
+				<Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/EasyHelper/EasyText">https://github.com/EasyHelper/EasyText</Hyperlink>
+			</TextBlock>
+			<TextBlock>
+				<Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://git.oschina.net/EasyHelper/easytext">http://git.oschina.net/EasyHelper/easytext</Hyperlink>
+			</TextBlock>
+		</StackPanel>
+
+
+		<TextBlock FontSize="12" Grid.Row="2" Padding="5">
+			<Run Text="Stable Channel, Build" />
+			<Run x:Name="buildVersion" Text="" FontWeight="Bold" Foreground="Red" />
+		</TextBlock>
+	</Grid>
+</mahapp:MetroWindow>
