@@ -113,10 +113,10 @@ Contribution
 Donation
 ---------
 If you find EasyText is useful to you, feel free to support the project by making a donation!  
-
-### Donate $9.9 or RMB 19.99 will get a single license.:+1::+1:
-### After paid, send a mail to "**qiwang0@qq.com**" with the license key, and you'll get a valid license in 24 hours. :+1::+1:
-
+<!---
+ ### Donate $9.9 or RMB 19.99 will get a single license.:+1::+1:
+ ### After paid, send a mail to "**qiwang0@qq.com**" with the license key, and you'll get a valid license in 24 hours. :+1::+1:
+---->
 [paypal](https://paypal.me/easyhelper)!
 [paypal](https://paypal.me/easyhelper)!
 [paypal](https://paypal.me/easyhelper)!
